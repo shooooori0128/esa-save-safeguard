@@ -1,0 +1,31 @@
+/* FIXME: CSS moduleが何故か使えないので原因調査 */
+.change-log-tooltip {
+  position: absolute;
+  display: none;
+  bottom: 130%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 12px;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.change-log-tooltip-arrow {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #333;
+}
+
+.change-log-tooltip-text {
+  margin: 0;
+}
